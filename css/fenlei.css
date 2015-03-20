@@ -1,0 +1,50 @@
+@charset "utf-8";
+.red, .green {
+	height:10px;
+	width:10px;
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+.red {
+	background-color:#F00;
+}
+.green {
+	background-color:#0C6;
+}
+#main .row {
+	margin-bottom:10px;
+}
+#main .box {
+	line-height:100px;
+}
+#main .box-youhui a {
+	color:#FFF;
+	display:block;
+	line-height:40px;
+	text-align:center;
+	margin-top:30px;
+}
+#main .box-youhui .yilingqu {
+	background-color:#F55;
+}
+#main .box-youhui .lingqu {
+	background-color:#9BC9ED;
+}
+#main .miaoshu {
+	color:#000;
+}
+.tongji #main .miaoshu {
+	padding-top:20px;
+}
+#main .miaoshu h3 {
+	margin-top:12px;
+	font-size:18px;
+}
+#main .miaoshu h3 a {
+	color:#000;
+}
+#main .miaoshu p {
+	color:#787878;
+	overflow:hidden;
+}

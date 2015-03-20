@@ -1,0 +1,271 @@
+@charset "utf-8";
+.red, .green {
+	height:10px;
+	width:10px;
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+.red {
+	background-color:#F00;
+}
+.green {
+	background-color:#0C6;
+}
+.riqi {
+	height:60px;
+	width:60px;
+	background-color:#FF7F7E;
+	display:block;
+	color:#FFF;
+	font-size:36px;
+	font-weight:bold;
+	padding:5px;
+}
+.hong, .huang, .lan {
+	height:20px;
+	width:20px;
+	display:block;
+}
+.hong {
+	background-color:#F00;
+}
+.huang {
+	background-color:#FFFA80;
+}
+.lan {
+	background-color:#56C9FF;
+}
+#main {
+	color:#000;
+}
+/* xiaofeixiangqing */
+#main .panel {
+	margin-top:50px;
+}
+/* xiaofeitongji */
+#main .box-tongji {
+	background-color:#FFF;
+	margin-top:20px;
+}
+.box-tongji .box {
+	padding:10px 0;
+}
+.box-tongji .box img {
+	height:80px;
+	width:80px;
+}
+.table {
+	margin-bottom:80px;
+}
+#menu-tongji {
+	background-color:#5C5C5C;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:80px;
+	margin-bottom:60px;
+	padding:20px 0;
+}
+/* huiyuanka */
+.huiyuanka #main .panel {
+	background-color:#2A2A2A;
+	color:#FDFDFD;
+	font-size:16px;
+}
+.huiyuanka #main .panel .title {
+	background-color:#121212;
+	height:40px;
+	line-height:40px;
+	margin-top:20px;
+	font-size:20px;
+	color:#28cfff;
+}
+.huiyuanka #main .botton {
+	margin-top:30px;
+}
+.huiyuanka .ka {
+	position:absolute;
+	left:50px;
+	top:50px;
+	font-size:35px;
+	font-weight:bold;
+	font-style: italic;
+	color:#FFF;
+}
+.huiyuanka #main .erweima {
+	background-color:#2A2A2A;
+	padding:5px;
+}
+.huiyuanka #main .erweima p {
+	margin-top:5px;
+}
+/* jilu */
+.diy-img {
+	height:30px;
+	width:30px;
+}
+/* zhanghu */
+.zhanghu #main .panel {
+	background-color:#2A2A2A;
+	color:#FDFDFD;
+	font-size:16px;
+	padding:30px 0;
+}
+.zhanghu .panel .title {
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom:0;
+	background-color:#2A2A2A;
+	height:40px;
+	line-height:40px;
+	font-weight:bold;
+}
+.zhanghu .panel .title a {
+	display:block;
+}
+.zhanghu .panel .title img {
+	float:right;
+	height:20px;
+	width:20px;
+}
+.zhanghu .panel .title.active {
+	background-color:#000;
+}
+/* shenfen */
+.shenfen #main .panel {
+	background-color:#2A2A2A;
+	color:#FDFDFD;
+	font-size:16px;
+}
+.shenfen .panel .title {
+	padding:10px 30px;
+	background-color:#000;
+	font-weight:bold;
+	text-align:center;
+}
+.shenfen .panel .title img {
+	float:right;
+	height:24px;
+	width:24px;
+}
+.shenfen #main form {
+	color:#969696;
+}
+.shenfen #main form .checkbox {
+	margin-top:50px;
+}
+.shenfen #main form a {
+	color:#2ACFFF;
+	text-decoration:underline;
+}
+/* anquan */
+.shenfen .panel .item {
+	padding:10px 30px;
+	font-weight:bold;
+	text-align:center;
+}
+.shenfen .panel .item p * {
+	margin-left:20px;
+}
+.shenfen .panel .item img {
+	height:24px;
+	width:24px;
+}
+/* xiangqing */
+.xiangqing #main .xiangqing-banner {
+	background-color:#CCC;
+	height:200px;
+}
+.xiangqing .xiangqing-banner .img-circle {
+	height:100px;
+	width:100px;
+}
+.xiangqing .xiangqing-banner .title {
+	color:#FFF;
+	font-size:26px;
+}
+.xiangqing .xiangqing-banner .caption {
+	color:#34BEFD;
+}
+.xiangqing #main hr {
+	background-color:#000;
+	height:2px;
+}
+/* huodong */
+.huodong #main {
+	padding-top:20px;
+}
+.huodong #main .panel {
+	margin-top:0;
+}
+.huodong .diy-img {
+	height:24px;
+	width:24px;
+}
+.huodong .link-bottom {
+	background-color:#8E8E8E;
+}
+.huodong .link-bottom .active {
+	background-color:#545454;
+}
+.huodong .link-bottom a {
+	padding:10px;
+	display:block;
+	text-align:center;
+	color:#D6D6D6;
+}
+.huodong .rili {
+	background-color:#CCC;
+}
+.huodong .caidan {
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+}
+.huodong .caidan a {
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+}
+/* rili */
+.huodong .rili-hui {
+	height:30px;
+	width:30px;
+	display:block;
+	background-color:#434446;
+}
+.huodong .rili-huise {
+	color:#434446;
+}
+.huodong .rili-huangse {
+	color:#FFFA80;
+}
+.huodong .rili-lan {
+	height:30px;
+	width:30px;
+	display:block;
+	background-color:#81C9E2;
+}
+.huodong #main .table{
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+}
+.huodong #main .table thead {
+	background-color:#343436;
+}
+.huodong #main .table thead tr th {
+	border:none;
+	padding:15px 0;
+	text-align:center;
+}
+.huodong #main .table tbody {
+	background-color:#636768;
+}
+.huodong #main .table tbody tr td {
+	border:none;
+	text-align:center;
+	line-height:30px;
+}
