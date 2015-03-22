@@ -174,8 +174,12 @@
 }
 /* xiangqing */
 .xiangqing #main .xiangqing-banner {
+	padding-top:30px;
 	background-color:#CCC;
-	height:200px;
+	height:230px;
+	background-image: url(../static/bg.jpg);
+	BACKGROUND-REPEAT:REPEAT;
+	
 }
 .xiangqing .xiangqing-banner .img-circle {
 	height:100px;
@@ -183,7 +187,7 @@
 }
 .xiangqing .xiangqing-banner .title {
 	color:#FFF;
-	font-size:26px;
+	font-size:20px;
 }
 .xiangqing .xiangqing-banner .caption {
 	color:#34BEFD;

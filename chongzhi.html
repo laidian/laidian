@@ -19,6 +19,11 @@
 <link rel="icon" href="favicon.ico">
 <link href="css/fenlei.css" rel="stylesheet" type="text/css">
 </head>
+<style>
+	.shop-nav .back{
+		background: #4BA8F0;
+	}
+</style>
 
 <body class="index">
 <div id="header" class="shop-nav">
@@ -28,7 +33,7 @@
       <div class="col-xs-7">
         <p class="news-title text-center">账户充值</p>
       </div>
-      <div class="col-xs-3 text-center back"><a class="" href="index.html"><img src="static/icon_list.png">返回</a></div>
+ <div class="col-xs-3 text-center back"><a class="" href="zhanghuanquan.html"><img src="static/back.png"></a></div>
     </div>
   </div>
 </div>
@@ -54,24 +59,105 @@
     </form>
   </div>
 </div>
-<div id="menu">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-xs-3 active"><a href="#"><img src="static/icon_w1.png">
-        <p>首页</p>
-        </a></div>
-      <div class="col-xs-3"><a href="#"><img src="static/icon_2.png">
-        <p>会员功能</p>
-        </a></div>
-      <div class="col-xs-3"><a href="#"><img src="static/icon_3.png">
-        <p>资讯</p>
-        </a></div>
-      <div class="col-xs-3"><a href="#"><img src="static/icon_4.png">
-        <p>商户登录</p>
-        </a></div>
-    </div>
-  </div>
+		<style>
+			.me:hover {
+				background-color: #000;
+				color: #fff;
+			}
+			.vip1:hover .vip {
+				height: 105px;
+				transition: 0.5s;
+				bottom: 60px;
+			}
+			.vip1:hover .me {
+				background-color: #000;
+			}
+			.vip {
+				position: absolute;
+				bottom: 0px;
+				left: 25%;
+				width: 25%;
+				height: 0px;
+				background-color: #000;
+				color: #fff;
+				font-weight: bold;
+				transition: 0.5s;
+			}
+			.info {
+				position: absolute;
+				bottom: 0px;
+				left: 50%;
+				width: 25%;
+				height: 0px;
+				background-color: #000;
+				color: #fff;
+				font-weight: bold;
+				transition: 0.5s;
+			}
+			.info1:hover .info {
+				height: 70px;
+				transition: 0.5s;
+				bottom: 60px;
+			}
+			.info1:hover .me {
+				background-color: #000;
+			}
+			.line {
+				height: 35px;
+				line-height: 35px;
+			}
+			.lineborder {
+				border-bottom: 1px solid #fff;
+			}
+		</style>
+
+
+		<div id="menu">
+			<div class="container">
+				<div class="row text-center">
+					<div class="me col-xs-3">
+						<a href="index.html">
+							<img src="static/icon_w1.png">
+							<p>首页</p>
+						</a>
+					</div>
+					<div class="vip1">
+						<div class="me col-xs-3 vipmenu  active">
+							<a href="#">
+								<img src="static/icon_2.png">
+								<p>会员功能</p>
+							</a>
+						</div>
+						<div class="vipmenu vip">
+							<div class="line lineborder" onclick="location='xiaofeixiangqing.html'">消费信息查询
+
 </div>
+							<div class="line lineborder" onclick="location='huiyuangongneng1.html'">申请电子卡</div>
+							<div class="line" onclick="location='huiyuangongneng2.html'">会员功能</div>
+						</div>
+					</div>
+					<div class="info1">
+						<div class="me col-xs-3 infomenu">
+							<a href="#">
+								<img src="static/icon_3.png">
+								<p>资讯</p>
+							</a>
+						</div>
+						<div class="infomenu info">
+							<div class="line lineborder" onclick="location='news.html'">最新资讯</div>
+							<div class="line " onclick="location='huodong.html'">活动</div>
+
+						</div>
+					</div>
+					<div class="me col-xs-3">
+						<a href="login.html">
+							<img src="static/icon_4.png">
+							<p>商户登录</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 <script type="text/javascript" src="plugins/jquery-1.10.2.min.js"></script> 
 <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
 </body>
