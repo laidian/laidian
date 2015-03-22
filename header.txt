@@ -1,0 +1,11 @@
+<style>
+	.shop-nav .back{
+		background: #4BA8F0;
+	}
+</style>
+
+
+
+
+
+    <div class="col-xs-3 text-center back"><a class="" href="index.html"><img src="static/back.png"></a></div>
