@@ -35,7 +35,7 @@
 			.caption {
 				text-align: center;
 			}
-			.item img {
+			.thumbnail img {
 				border-radius: 10px;
 				-webkit-box-shadow: 0 0 10px 3px #ccc;
 				-moz-box-shadow: 0 0 10px 3px #ccc;
@@ -45,18 +45,9 @@
 				margin-right: -5px;
 				margin-left: -5px;
 			}
-			.form-control {
-				padding-left: 30px;
-			}
-			.searchbar.ico {
-				width: 30px;
-				height: 30px;
-				position: absolute;
-				top: 8px;
-				left: 15px;
-				z-index: 500;
-				background: url(static/search.png) no-repeat;
-				background-size: 30px 30px;
+			
+			.search {
+				margin-top: -3px;
 			}
 			.thumbnail {
 				background-color: #EEF9FB;
@@ -66,7 +57,7 @@
 			.nav {
 				width: 100%;
 			}
-			.px{
+			.px {
 				margin-bottom: 15px;
 			}
 			.carousel-indicators3 {
@@ -120,6 +111,17 @@
 				-moz-box-shadow: 0 0 0;
 				box-shadow: 0 0 0;
 			}
+			.address {
+				font-size: 20px;
+				font-weight: bold;
+			}
+			.wmax img{
+				border-radius: 0px;
+				width: 100%;
+			}
+			.carousel-control {
+				border-radius: 10px;
+			}
 		</style>
 	</head>
 
@@ -128,7 +130,7 @@
 		<div id="header" class="index-nav">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-3 text-center"><span>长沙</span>
+					<div class="address col-xs-3 text-center"><span>长沙</span>
 					</div>
 					<div class="col-xs-7">
 						<form action="#">
@@ -138,9 +140,9 @@
 							</div>
 						</form>
 					</div>
-					<div class="col-xs-2 text-center">
+					<div class="col-xs-2 text-center search">
 						<a href="#">
-							<img src="static/icon_add.png">
+							<img src="static/search.png">
 						</a>
 					</div>
 				</div>
@@ -179,7 +181,7 @@
 													<img src="static/zc.png">
 												</a>
 												<div class="caption">
-													<p><a href="#">中餐</a> 
+													<p><a href="#">中餐</a>
 													</p>
 												</div>
 											</div>
@@ -242,7 +244,7 @@
 							<div class="item">
 
 								<div class="nav">
-									<div class="carousel-indicators2"> 
+									<div class="carousel-indicators2">
 										<img src="static/tab2.png">
 									</div>
 									<div class="row row1">
@@ -325,7 +327,7 @@
 						<div class="content-slide">
 							<div class="item">
 								<div class="nav">
-									<div class="carousel-indicators3"> 
+									<div class="carousel-indicators3">
 										<img src="static/tab3.png">
 									</div>
 									<div class="row row1">
@@ -435,37 +437,18 @@
 			</div>
 			<div class="topic">
 				<div class="container">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<div class="row">
-									<div class="col-xs-6">
-										<div class="thumbnail px">
-											<img src="static/6.png">
-										</div>
-									</div>
-									<div class="col-xs-6">
-										<div class="thumbnail px">
-											<img src="static/7.png">
-										</div>
-									</div>
-									<div class="col-xs-6">
-										<div class="thumbnail px">
-											<img src="static/8.png">
-										</div>
-									</div>
-									<div class="col-xs-6">
-										<div class="thumbnail">
-											<img src="static/9.png">
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
+					<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item wmax"><a href="xiangqing.html"><img src="static/6.png"></a></div>
+    <div class="item wmax"><a href="xiangqing.html"><img src="static/7.png"></a></div>
+    <div class="item wmax"><a href="xiangqing.html"><img src="static/8.png"></a></div>
+    <div class="item wmax"><a href="xiangqing.html"><img src="static/9.png"></a></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+</div>
 				</div>
 			</div>
 		</div>
@@ -475,7 +458,7 @@
 				color: #fff;
 			}
 			.vip1:hover .vip {
-				height: 105px;
+				height: 35px;
 				transition: 0.5s;
 				bottom: 60px;
 			}
@@ -521,7 +504,6 @@
 			}
 		</style>
 
-
 		<div id="menu">
 			<div class="container">
 				<div class="row text-center">
@@ -539,9 +521,7 @@
 							</a>
 						</div>
 						<div class="vipmenu vip">
-							<div class="line lineborder" onclick="location='xiaofeixiangqing.html'">消费信息查询</div>
-							<div class="line lineborder" onclick="location='huiyuangongneng1.html'">申请电子卡</div>
-							<div class="line" onclick="location='huiyuangongneng2.html'">会员功能</div>
+							<div class="line" onclick="location='huiyuangongneng2.html'">我的电子卡</div>
 						</div>
 					</div>
 					<div class="info1">
@@ -558,9 +538,9 @@
 						</div>
 					</div>
 					<div class="me col-xs-3">
-						<a href="login.html">
+						<a href="youhui.html">
 							<img src="static/icon_4.png">
-							<p>商户登录</p>
+							<p>促销</p>
 						</a>
 					</div>
 				</div>
